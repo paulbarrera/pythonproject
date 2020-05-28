@@ -27,21 +27,23 @@ Week 1
 
 Week 2-6
 
+    [ ] Create a class, then create at least one object of that class and populate it with data
     [ ] Create a form and save the response (on click of Submit button)
     [ ] Calculate and display data based on an external factor (ex: get the current date and display how many many days remaining until some event)
-    [ ] Create a class, then create at least one object of that class and populate it with data
     [ ] Implement a "master loop" console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program
-    [ ] Scaffold an initial migration
+
     
 Week 7-8
 
+    [ ] Scaffold an initial migration
+    [ ] Create 3 or more unit tests for your application
     [ ] Read and parse an external file API and display data in your app (such with fetch() or AJAX)
    
 Week 9-10
 
-    [ ] Create 3 or more unit tests for your application
     [ ] Update Readme form
-    [ ] Push project to GitHub
+    [ ] Submit to mentors for review 
+    [ ] Push final project to GitHub
 
 
 
