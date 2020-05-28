@@ -1,4 +1,4 @@
-# Python Census Quiz Game 
+# Python Citizenship Quiz Game 
 
 ## Overview
 Create a quiz game parodying the US citizenship test. Quiz will contain questions that are most important to Americans, Pop Culture!
