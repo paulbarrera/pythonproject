@@ -29,7 +29,8 @@ Week 2-6
 
     [ ] Create a form and save the response (on click of Submit button)
     [ ] Calculate and display data based on an external factor (ex: get the current date and display how many many days remaining until some event)
-    [ ] Implement a log that records errors, invalid input, or other important events and writes them to a text file 
+    [ ] Create a class, then create at least one object of that class and populate it with data
+    [ ] Implement a "master loop" console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program
     [ ] Scaffold an initial migration
     
 Week 7-8
