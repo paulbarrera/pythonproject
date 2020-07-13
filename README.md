@@ -12,7 +12,7 @@ Create a quiz game parodying the US citizenship test. Quiz will contain question
 
 ## Features
 
-* Multiple Choice Questions
+* True or False Questions
 
 * Player will be able to enter name and save it to a high score ranking.
 
