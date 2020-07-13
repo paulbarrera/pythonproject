@@ -21,9 +21,9 @@ def get_tof_questions():
 
 def play_tof_quiz():
 
-    tof_questions = get_tof_questions()
+        tof_questions = get_tof_questions()
 
-    random.shuffle(tof_questions)
+        random.shuffle(tof_questions)
 
 #player score 
 score = 0
@@ -31,12 +31,10 @@ score = 0
 #create a for loop
 for q in tof_questions:
 
-    print("True or false: " + q[0])
-    
-    guess = input("Enter T or F: ")
-
-    if quess == q[1]:
-
+        print("True or false: " + q[0])
+         guess = input("Enter T or F: ")
+     
+     if guess.lower() == q[1].lower()
         print("Correct")
 
         score = score + 1
@@ -44,6 +42,6 @@ for q in tof_questions:
     else:
         print("Incorrect, This is not acceptable!")
 #print final score
-print("Your Citizenship Quiz Score is: " + str(score))
+        print("Your Citizenship Quiz Score is: " + str(score))
 
 play_tof_quiz()
