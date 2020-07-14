@@ -15,7 +15,7 @@ def get_tof_questions():
     questions.append(["Abraham Lincoln was born in Kentucky", "T"])
     questions.append(["Did Michael Crichton write Jurassic Park", "T"])
     questions.append(["There are fourteen Real Housewives shows", "T"])
-    questions.append(["Yearly American eat 3 billion pizzas", "T"])
+    questions.append(["Yearly Americans eat 3 billion pizzas", "T"])
     
     return questions
 
@@ -26,21 +26,21 @@ def play_tof_quiz():
         random.shuffle(tof_questions)
 
 #player score 
-score = 0
+        score = 0
 
 #create a for loop
-for q in tof_questions:
+        for q in tof_questions:
 
-        print("True or false: " + q[0])
-         guess = input("Enter T or F: ")
+            print("True or false: " + q[0])
+            guess = input("Enter T or F: ")
      
-     if guess.lower() == q[1].lower()
-        print("Correct")
+            if guess.lower() == q[1].lower():
+                print("Correct")
 
-        score = score + 1
+                score = score + 1
+        else:
+            print("Incorrect :This is not acceptable!")
 
-    else:
-        print("Incorrect, This is not acceptable!")
 #print final score
         print("Your Citizenship Quiz Score is: " + str(score))
 
