@@ -7,7 +7,7 @@ Create a quiz game parodying the US citizenship test. Quiz will contain question
 
 * Backend: Python
 * Framework: Flask
-* DB: SQL
+* DB: SQLite
 * Front End: HTML, CSS
 
 ## Features
@@ -27,7 +27,7 @@ Week 1
 
 Week 2-6
 
-    [ ] Create a class, then create at least one object of that class and populate it with data
+    [x] Create a class, then create at least one object of that class and populate it with data
     [ ] Create a form and save the response (on click of Submit button)
     [ ] Calculate and display data based on an external factor (ex: get the current date and display how many many days remaining until some event)
     [ ] Implement a "master loop" console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program
