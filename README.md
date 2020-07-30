@@ -42,14 +42,14 @@ Week 2-6
 Week 7-8
 
     [ ] Scaffold an initial migration
-    [ ] Create 3 or more unit tests for your application
+    [x] Create 3 or more unit tests for your application
     [ ] Read and parse an external file API and display data in your app (such with fetch() or AJAX)
    
 Week 9-10
 
-    [ ] Update Readme form
-    [ ] Submit to mentors for review 
-    [ ] Push final project to GitHub
+    [x] Update Readme form
+    [x] Submit to mentors for review 
+    [x] Push final project to GitHub
 
 
 
