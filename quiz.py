@@ -6,8 +6,10 @@ import time
 now = datetime.datetime.now()
 print ("Current date and time : ")
 print (now.strftime("%Y-%m-%d %H:%M:%S"))
-
+variable_name = input("Please enter your Government Name: ")
+print("Hi " + variable_name)
 print("Welcome to your Quiz!")
+
 
 seconds = int(input("Type 10 so quiz begins in 10 seconds "))
 
