@@ -1,6 +1,21 @@
 import random
-#Implement a "master loop" console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program
-# Create a class, then create at least one object of that class and populate it with data  
+import datetime
+import time
+
+
+now = datetime.datetime.now()
+print ("Current date and time : ")
+print (now.strftime("%Y-%m-%d %H:%M:%S"))
+
+print("Welcome to your Quiz!")
+
+seconds = int(input("Type 10 so quiz begins in 10 seconds "))
+
+time.sleep(10)
+
+print("BEGIN")
+
+
 def get_tof_questions():
 
     questions = []
@@ -25,25 +40,28 @@ def play_tof_quiz():
 
 #player score 
         score = 0
-
+        
 #create a for loop
         for q in tof_questions:
 
             print("True or false: " + q[0])
-            guess = raw_input("Enter T or F: ")
+            guess = input("Enter T or F: ") 
      
             if guess.lower() == q[1].lower():
                 print("Correct")
 
-            elif guess.lower() != q[1].lower():
+                score = score + 1
+
+            else:
                 print("Incorrect")
 
- 
-         
-        else:
-            print("Incorrect :This is not acceptable!")
-
 #print final score
+        #     if score > 6:
+        #         print("You Pass!: " + str(score))
+                
+        #     elif score < 5:
+        #         print("You fail!: " + str(score))
+
         print("Your Citizenship Quiz Score is: " + str(score))
         
 play_tof_quiz()

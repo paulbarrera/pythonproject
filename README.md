@@ -1,5 +1,10 @@
 # Python Citizenship Quiz Game 
 
+1. To Start the game type in python3 quiz.py in terminal. 
+2. Then you will be asked to type the number 10, press enter. 
+3. You can answer the questions in lower to upper case T, or F. 
+4. Game will automatically end and give you a score. 
+
 ## Overview
 Create a quiz game parodying the US citizenship test. Quiz will contain questions that are most important to Americans, Pop Culture!
 
@@ -28,8 +33,8 @@ Week 1
 Week 2-6
 
     [x] Create a class, then create at least one object of that class and populate it with data
-    [ ] Create a form and save the response (on click of Submit button)
-    [ ] Calculate and display data based on an external factor (ex: get the current date and display how many many days remaining until some event)
+    [x] Create a form and save the response (on click of Submit button)
+    [x] Calculate and display data based on an external factor (ex: get the current date and display how many many days remaining until some event)
     [ ] Implement a "master loop" console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program
 
     
